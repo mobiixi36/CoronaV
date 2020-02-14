@@ -30,7 +30,7 @@ public class Population {
     private Population(City city) {
         System.out.println("INITIALIZE POPULATION...");
         // populate the person list
-        for (int i = 0; i < Constants.TOTAL_NUMBER_OF_PEOPLE; i++) {
+        for (int i = 0; i < Constants.POPULATION; i++) {
             double x = city.getX() + MyRandom.nextGaussion() + 400;
             double y = city.getY() + MyRandom.nextGaussion() + 400;
 
